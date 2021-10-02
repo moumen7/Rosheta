@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   firebase_auth: ^1.0.1 # add this line
   firebase_core: ^1.0.2 # add this line
+  adobe_xd: ^2.0.0+1
 
 dev_dependencies:
   flutter_test:
@@ -54,16 +55,16 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - images/online_doctor_amico.png
+    - images/facebook_icon.png
+    - images/gmail_icon.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
